@@ -1,0 +1,32 @@
+# Arquivos Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Arquivos de exclusão padrão
+*.log
+*.out
+*.retry
+
+# Diretório de plugins Terraform
+.terraform/
+
+# Arquivos de backup criados pelo editor de texto
+*~
+
+# Arquivos de configuração local
+terraform.tfvars
+
+# Arquivos de estado de backup criados pelo Terraform
+terraform.tfstate.backup
+
+# Logs e diretórios de debug
+terraform-debug.log
+.terraform-debug/
+
+# Diretórios de cache ou de compilação
+.terraform-cache/
+.terraform-tfenv-cache/
+
+# Arquivos de versionamento de providers
+.terraform.lock.hcl
